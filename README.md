@@ -53,9 +53,9 @@ Skills based review for the Junior Web Developer CSS Introduction lesson.
 
 5. In the `body` selector ruleset, add a font-family property with a value of `'Open Sans', sans-serif`
 
+6. On the same `body` selector, replace the `background-color property` with the `background-image property`. Add a value of `linear gradient` with `whitesmoke` as the first value, and `rgb(35, 47, 58)` as the second 
 #### Style
-
-6. On the same `body` selector, replace the `background-color property` with the `background-image property`. Add a value of `linear gradient` with `whitesmoke` as the first value, and `rgb(35, 47, 58)` as the second value.
+value.
 
 7. Convert the `padding` property on the `li a` ruleset to the shorthand syntax;
 

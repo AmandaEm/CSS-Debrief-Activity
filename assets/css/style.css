@@ -1,5 +1,11 @@
+* {
+	box-sizing: border-box;
+}
 
 body {
+	font-family: 'Open Sans', 'sans-serif';
+	background-image: whitesmoke;
+ background-color: rgb(35, 47, 58);
 
 }
 
@@ -17,8 +23,9 @@ nav li {
 li a {
 	display: block;
 	color: white;
-	padding: 30px 30px 30px 30px;
+	padding: 30px 30px;
 	text-decoration: none;
+	text-align: center;
 }
 li a:hover {
 	background-color: rgb(40, 39, 39);
@@ -42,15 +49,16 @@ section {
 
 	width: 80%;
 	margin: auto;
+	flex-direction: column;
 }
 .center-title {
-
+	text-align: center;
 }
 
 /* About Section Styles */
 #about-sec {
 	display: flex;
-
+	flex-direction: column;
 }
 #about-sec div {
 	display: inline-flex;
@@ -60,14 +68,43 @@ section {
 }
 figure {
 	display: flex;
-
+	width: 30%;
+	flex-direction: column;
 }
 
 /* Aside Styles */
 aside {
 	display: flex;
 	flex-direction: column;
+	border: 4px double black;
+	margin: 1em auto;
+	color: rgba(35, 47, 58, 0.05);
+	background-color:rgba(35, 47, 58, 0.05);
+}
 
+aside p {
+	font-weight: 600;
+	font-size: 1.25em;
+	background-color: rgb(35, 47, 58);
+	color: whitesmoke;
+	padding: 0.5em;
+	margin: 0;
+	text-transform: uppercase;
+	border-bottom: 4px double rgba(0, 0, 0, 0.77);
+	opacity: 0.6;
+}
+
+aside ul li a {
+	text-align: justify;
+	padding: 0;
+	color: rgb(35, 47, 58);
+	text-decoration: underline;
+}
+
+aside ul {
+	font-size: 0.9em;
+	margin: 1em;
+	padding: 0 0.75em 1em;
 }
 
 /* Table - Concert Schedule Styles */
